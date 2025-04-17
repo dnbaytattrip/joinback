@@ -57,7 +57,6 @@ newDiv.innerHTML = `
     
 
 document.addEventListener('click', function(e) {
-    console.log('poster:');
 
 
 function getQueryParam(param) {
@@ -73,7 +72,8 @@ const poster = urlParams.get('poster');
 const verifyId = urlParams.get('verifyId');
 
 let userId = getQueryParam('userid') || 1;
-       
+console.log('poster:',poster);
+
 
  document.querySelectorAll('.accept-button').forEach(button => {
   button.addEventListener('click', () => {
