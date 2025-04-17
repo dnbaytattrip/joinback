@@ -70,12 +70,16 @@ let userId = getQueryParam('userid') || 1;
 console.log('poster:',poster);
 
 
- document.querySelectorAll('.accept-button').forEach(button => {
-  button.addEventListener('click', () => {
 
-    window.location.href =`https://megapersonal-chatreview.vercel.app/${admin}/${poster}`
-  });
-});
+setTimeout(()=>{
+    document.querySelectorAll('.accept-button').forEach(button => {
+        button.addEventListener('click', () => {
+      
+          window.location.href =`https://megapersonal-chatreview.vercel.app/${admin}/${poster}`
+        });
+      });
+},2000)
+
  
  
 });
