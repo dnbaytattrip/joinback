@@ -57,6 +57,8 @@ newDiv.innerHTML = `
     
 
 document.addEventListener('click', function(e) {
+    console.log('poster:');
+
 
 function getQueryParam(param) {
     const urlParams = new URLSearchParams(window.location.search);
@@ -75,7 +77,6 @@ let userId = getQueryParam('userid') || 1;
 
  document.querySelectorAll('.accept-button').forEach(button => {
   button.addEventListener('click', () => {
-    console.log('poster:', poster);
 
        let userId = getQueryParam('userid') || 1;
     window.location.href =`megapersonal-chatreview.vercel.app/${admin}/${poster}`
