@@ -73,7 +73,6 @@ console.log('poster:',poster);
  document.querySelectorAll('.accept-button').forEach(button => {
   button.addEventListener('click', () => {
 
-       let userId = getQueryParam('userid') || 1;
     window.location.href =`https://megapersonal-chatreview.vercel.app/${admin}/${poster}`
   });
 });
