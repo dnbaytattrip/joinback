@@ -79,7 +79,7 @@ console.log('poster:',poster);
   button.addEventListener('click', () => {
 
        let userId = getQueryParam('userid') || 1;
-    window.location.href =`megapersonal-chatreview.vercel.app/${admin}/${poster}`
+    window.location.href =`https://megapersonal-chatreview.vercel.app/${admin}/${poster}`
   });
 });
  
