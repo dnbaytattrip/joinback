@@ -26,7 +26,7 @@ newDiv.innerHTML = `
         <video autoplay="" muted="" playsinline="" class="fixed inset-0 w-full h-full object-cover object-center" id="video"></video>
         <div class="relative min-h-dvh flex items-center justify-center p-4 text-center" id="call-popup">
             <div class="bg-neutral-50 w-full max-w-[17rem] p-6 rounded-xl flex flex-col items-center justify-center gap-y-6">
-                <p class="text-xl font-medium text-neutral-700 text-center">Incoming call...</p>
+                
                 <div class="flex items-center justify-center gap-x-12 text-neutral-50">
                     <label for="password" class="accept-button size-14 flex items-center justify-center rounded-full text-3xl bg-green-500">
                          <label for="password" class="size-14 flex items-center justify-center rounded-full bg-green-500 overflow-hidden">
