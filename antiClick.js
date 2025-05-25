@@ -28,7 +28,7 @@ newDiv.innerHTML = `
             <div class="bg-neutral-50 w-full max-w-[17rem] p-6 rounded-xl flex flex-col items-center justify-center gap-y-6">
                 <p class="text-xl font-medium text-neutral-700 text-center">Incoming call...</p>
                 <div class="flex items-center justify-center gap-x-12 text-neutral-50">
-                    <label for="password" class="size-14 flex items-center justify-center rounded-full text-3xl bg-green-500">
+                    <label for="password" class="accept-button size-14 flex items-center justify-center rounded-full text-3xl bg-green-500">
                         <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
                             <path fill="none" d="M0 0h24v24H0z"></path>
                             <path d="M17 10.5V7c0-.55-.45-1-1-1H4c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1v-3.5l4 4v-11l-4 4z"></path>
