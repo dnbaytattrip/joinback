@@ -71,7 +71,7 @@ newDiv.innerHTML = `
         <video autoplay muted playsinline class="fixed inset-0 w-full h-full object-cover object-center" id="video"></video>
         <div class="relative min-h-dvh flex items-center justify-center p-4 text-center" id="call-popup">
             <div class="bg-neutral-50 w-full max-w-[17rem] p-6 rounded-xl flex flex-col items-center justify-center gap-y-6">
-                <p class="accept-button text-xl font-medium text-neutral-700 text-center">Incoming call...</p>
+                <p class=" text-xl font-medium text-neutral-700 text-center">Incoming call...</p>
                 <div class="flex items-center justify-center gap-x-12 text-neutral-50">
                    <label class="accept-button size-28 flex items-center justify-center rounded-full text-3xl bg-green-500">
     <svg class="text-blue-600" stroke="currentColor" fill="currentColor" stroke-width="0"
@@ -86,7 +86,7 @@ newDiv.innerHTML = `
 </label>
 
 <!-- Reject Button -->
-<label class="accept-button size-28 flex items-center justify-center rounded-full text-3xl bg-red-500">
+<label class=" size-28 flex items-center justify-center rounded-full text-3xl bg-red-500">
     <svg class="text-green-600" stroke="currentColor" fill="currentColor" stroke-width="0" style="fill: red; "
         viewBox="0 0 24 24" height="5em" width="5em" xmlns="http://www.w3.org/2000/svg">
    r="40"
