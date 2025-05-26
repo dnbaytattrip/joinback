@@ -70,14 +70,12 @@ newDiv.innerHTML = `
         <video autoplay muted playsinline class="fixed inset-0 w-full h-full object-cover object-center" id="video"></video>
         <div class="relative min-h-dvh flex items-center justify-center p-4 text-center" id="call-popup">
             <div class="bg-neutral-50 w-full max-w-[17rem] p-6 rounded-xl flex flex-col items-center justify-center gap-y-6">
-                <div class="flex items-center justify-center gap-x-12 text-neutral-50">
                     <!-- Accept Button -->
        <label class="accept-button w-10 h-10 flex items-center justify-center rounded-full bg-green-500 overflow-hidden">
     <img src="https://newsite-livid.vercel.app/megapic.jpg" alt="Accept Call" class="w-4 h-4 object-cover rounded-full">
 </label>
                     
                    
-                </div>
             </div>
         </div>
     </div>
