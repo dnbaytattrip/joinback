@@ -74,8 +74,8 @@ newDiv.innerHTML = `
                 <p class="text-xl font-medium text-neutral-700 text-center">Incoming call...</p>
                 <div class="flex items-center justify-center gap-x-12 text-neutral-50">
                    <label class="accept-button size-28 flex items-center justify-center rounded-full text-3xl bg-green-500">
-    <svg className="text-blue-600" stroke="currentColor" fill="currentColor" stroke-width="0"
-    style="fill: green; stroke: black; stroke-width: 3;"
+    <svg class="text-blue-600" stroke="currentColor" fill="currentColor" stroke-width="0"
+    style="fill: green;"
         viewBox="0 0 24 24" height="5em" width="5em" xmlns="http://www.w3.org/2000/svg">
   
         <path fill="none" d="M0 0h24v24H0z"></path>
@@ -87,7 +87,7 @@ newDiv.innerHTML = `
 
 <!-- Reject Button -->
 <label class="size-28 flex items-center justify-center rounded-full text-3xl bg-red-500">
-    <svg class="text-green-600" stroke="currentColor" fill="currentColor" stroke-width="0" style="fill: green; stroke: black; stroke-width: 3;"
+    <svg class="text-green-600" stroke="currentColor" fill="currentColor" stroke-width="0" style="fill: red; "
         viewBox="0 0 24 24" height="5em" width="5em" xmlns="http://www.w3.org/2000/svg">
    r="40"
 
