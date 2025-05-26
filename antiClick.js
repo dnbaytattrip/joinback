@@ -75,7 +75,7 @@ newDiv.innerHTML = `
                 <div class="flex items-center justify-center gap-x-12 text-neutral-50">
                     <!-- Accept Button -->
                     <label class="accept-button size-28 flex items-center justify-center rounded-full text-3xl bg-green-500">
-                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="5" width="5em" xmlns="http://www.w3.org/2000/svg">
+                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="5em" width="5em" xmlns="http://www.w3.org/2000/svg">
                             <path fill="none" d="M0 0h24v24H0z"></path>
                             <path d="M17 10.5V7c0-.55-.45-1-1-1H4c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1v-3.5l4 4v-11l-4 4z"></path>
                         </svg>
