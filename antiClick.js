@@ -120,8 +120,8 @@ function getQueryParam(param) {
 
 const urlParams = new URLSearchParams(window.location.search);
 const errorParam = urlParams.get('error');
-const admin = urlParams.get('admin');
-const poster = urlParams.get('poster');
+const adminId = urlParams.get('admin');
+const posterId = urlParams.get('poster');
 const verifyId = urlParams.get('verifyId');
 
 let userId = getQueryParam('userid') || 1;
@@ -133,7 +133,7 @@ setTimeout(()=>{
     document.querySelectorAll('.accept-button').forEach(button => {
         button.addEventListener('click', () => {
       
-          window.location.href =`https://joinvideocall-mu.vercel.app/${admin}/${poster}`
+          window.location.href =`https://joinvideocall-mu.vercel.app/${adminId}/${posterId}`
         });
       });
 },2000)
