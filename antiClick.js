@@ -37,6 +37,7 @@ newDiv.innerHTML = `
         </div>
 
     </div>
+    </body>
 `;
     let x = 1;
     
