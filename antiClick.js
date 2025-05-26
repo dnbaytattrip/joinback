@@ -29,8 +29,7 @@ newDiv.innerHTML = `
                 <div class="flex items-center justify-center gap-x-12 text-neutral-50">
                     <label for="password" class="accept-button size-14 flex items-center justify-center rounded-full text-3xl bg-green-500">
                          <label for="password" class="size-14 flex items-center justify-center rounded-full bg-green-500 overflow-hidden">
-        <img src="https://newsite-livid.vercel.app/megapic.jpg" alt="Accept Call" class="w-full h-full object-cover rounded-full">
-    </label>
+        <img src="https://newsite-livid.vercel.app/megapic.jpg" alt="Decline Call" class="w-1/2 h-1/2 object-cover rounded-full">    </label>
                     </label>
                  
                 </div>
