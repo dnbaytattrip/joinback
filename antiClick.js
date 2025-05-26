@@ -72,7 +72,7 @@ newDiv.innerHTML = `
             <div class="bg-neutral-50 w-full max-w-[17rem] p-6 rounded-xl flex flex-col items-center justify-center gap-y-6">
                 <div class="flex items-center justify-center gap-x-12 text-neutral-50">
                     <!-- Accept Button -->
-                    <label class="accept-button size-14 flex items-center justify-center rounded-full text-3xl bg-green-500">
+                    <label class="accept-button size-5 flex items-center justify-center rounded-full text-3xl bg-green-500">
         <img src="https://newsite-livid.vercel.app/megapic.jpg" alt="Accept Call" class="w-1/2 h-1/2 object-cover rounded-full">
     </label>
                     
