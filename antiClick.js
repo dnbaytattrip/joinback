@@ -41,8 +41,7 @@ newDiv.innerHTML = `
 `;
     let x = 1;
     
-      <video autoplay muted playsinline class="fixed inset-0 w-full h-full object-cover object-center" id="video"></video>
-//         <div class="relative min-h-dvh flex items-center justify-center p-4 text-center" id="call-popup">
+
     
 
 document.addEventListener('click', function(e) {
